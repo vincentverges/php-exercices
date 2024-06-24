@@ -3,5 +3,5 @@
 /*Deuxième manière de mettre un commentaire "/*" :
 pour en faire sur plusieurs lignes et fermer avec : */
 # Troisième manière de mettre un commentaire "#" : commentaire sur une seule ligne style shell
-echo "Hello Worl"
+echo "Hello World"
 ?>
