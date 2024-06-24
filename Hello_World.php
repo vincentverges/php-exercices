@@ -18,4 +18,4 @@ $nom = "Poetta";
 echo "Bonjour, mon nom est $nom.\n";
 
 // Affichage de la différence entre variable et constante
-echo "$nom dit qu'une variable est un conteneur qui peut stocker des valeurs qui peuvent changer au cours de l'exécution du script. Cependant, une constante est un conteneur qui stocke une valeur fixe, définie une seule fois et ne peut pas être modifiée pendant l'exécution du script.\n";
+echo "$nom dit qu'une variable est un conteneur qui peut stocker des valeurs qui peuvent changer au cours de l'exécution du script. Cependant, une constante est un conteneur qui stocke une valeur fixe, définie une seule fois et ne peut pas être modifiée pendant l'exécution du script.\n"; 
