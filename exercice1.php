@@ -1,8 +1,8 @@
-<?
+<?php
 
-echo "hello world";
+echo "hello world ";
 
-$nom = 'Eric';
+$nom = ' Eric';
 
 echo "bonjour, $nom";
 
