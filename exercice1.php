@@ -1,19 +1,15 @@
 <?php
-// commentaire en une ligne
-# la aussi en une ligne
-/*
-Commentaire sur plusieurs lignes
-*/
+//
+echo "hello World !!!!!!!!!!!!!!!";
 
-echo "Hello world";
+$nom = "PHP: Hypertext Preprocessor";
 
-$nom = "Bambi";
+echo "c'est quoi le $nom ?";
 
-echo $nom;
+// une variable : une variable en php commence par un $ on lui donne un nom et on lui assigne une valeur ( en entier , un string ....)
+// qui peut etre modifier au cours du code écrit 
 
-/*
-Une variable est une valeur qui peut etre modifier (ecriture en camel ou snake case)
-Une constante est une valeur immuable, elle ne peut donc pas etre modifier (Ecris en capital)
-*/
+//constante : une constante ne peut pas etre modifier tout au long du code elle restera la méme une fois définie
+
 
 ?>
