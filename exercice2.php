@@ -22,9 +22,9 @@ if ($heure < 12){
 <?php
 $utilisteur = "bonjourrrr";
 $motdePasse = "bonsoirrrr";
-if ($utilisateur === "admin" && $motDePasse === "1234")
+if ($utilisateur === "bonjourrrr" && $motDePasse === "bonsoirrrr")
 echo "Accès autorisé."
-} else {
+}else {
     echo "Accès refusé."; 
 }
 ?>
