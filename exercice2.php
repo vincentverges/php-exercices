@@ -39,4 +39,11 @@ else {
     echo 'Bonne soirée'
 }
 
+---------------
 
+if ($utilisateur === "admin" && $motDePasse === "1234") {
+    echo "Connexion réussie!<br>";
+} else {
+    echo "Nom d'utilisateur ou mot de passe incorrect.<br>";
+    
+    
