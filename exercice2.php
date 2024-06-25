@@ -1,12 +1,12 @@
 <?php
 $age = 12;
-switch ($age) :
+switch ($age) {
     case 1: $age >=18 :
         echo "Vous êtes majeur";
         break;
     case 2: $age  < 18 :
-else {
     echo "Vous êtes mineur";
+    break;
 };
 
 $heure = 13;
