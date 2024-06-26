@@ -36,5 +36,8 @@ elseif($motDePasse='1234'){
 
 }
 
+age("19");
+Heure("11");
+
 
 ?>
