@@ -39,3 +39,4 @@ if ($utilisateur === "admin" && $motDePasse === "1234") {
     echo "Nom d'utilisateur ou mot de passe incorrect."; 
 }
 ?>
+
