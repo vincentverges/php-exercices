@@ -6,7 +6,7 @@ echo "<br>";
 echo " la case numéro 2 est: ";
 echo "$fruit[1]";
 echo "<br>";
-$fruit[] = "Mangue";
+$fruit[] = "Mangue";  // On pourrais utiliser la commande array_push($fruit, "Mangue") Ou alors $fruit.append("Mangue")
 print_r($fruit);
 echo "<br>";
 echo "Avec le Foreach:";
@@ -19,10 +19,11 @@ $personne = array(
     "Prenom"  => "Jhon",
     "Age" => 29,
 );
+echo "Avec le Foreach:";
 print_r($personne);
 $personne["Age"] = 38;
 foreach ($personne as $i => $value) {
-    echo "$personne[$i] ";
+    echo "$personne[$i]";
 }
 
 ?>
