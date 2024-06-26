@@ -19,11 +19,12 @@ $personne = array(
     "Prenom"  => "Jhon",
     "Age" => 29,
 );
-echo "Avec le Foreach:";
 print_r($personne);
+echo "<br>";
 $personne["Age"] = 38;
+echo "Avec le Foreach:";
 foreach ($personne as $i => $value) {
-    echo "$personne[$i]";
+    echo "$personne[$i] ";
 }
 
 ?>
