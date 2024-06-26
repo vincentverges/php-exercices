@@ -2,7 +2,8 @@
 $fruits = ["Pomme", "Banane", "Orange"];
 
 echo $fruits[2];
-$remplacement =  [3 =>"mangue"] ;
+
+array_push($fruits, "mangue");
 
 foreach ($fruits as $fruit) {
     echo  $fruit[0];
@@ -19,6 +20,7 @@ foreach ($personne as $person) {
 };
 
 $replace= ["age"=> "30"];
+array_replace($replace);
 
 foreach ($personne as $person) {
     echo $person[0];
