@@ -1,6 +1,6 @@
 <?php
 $age = 18;
-$heure = 12;
+$heure =12;
 $utilisateur = "toto";
 $motDePasse = "1234";
 
@@ -17,7 +17,7 @@ if ($heure < 12 || $heure > 18){
 }
 if ($utilisateur = "admin" && $motDePasse = "1234"){
     echo "connexion réussi";
-}else {
+} else {
     echo "Nom d'utilisateur ou mot de passe incorrect.";
 } ?>
 
