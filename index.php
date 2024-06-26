@@ -1,5 +1,6 @@
 
 
 <?php
-include "exercice1.php";
+include "exercice3.php";
+
 ?>

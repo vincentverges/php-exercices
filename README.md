@@ -45,3 +45,33 @@ Utiliser une condition avec des opérateurs logiques :
 - Utilisez une structure conditionnelle pour vérifier si $utilisateur est égal à "admin" et si $motDePasse est égal à "1234".
 - Si les deux conditions sont vraies, affichez "Connexion réussie!".
 Sinon, affichez "Nom d'utilisateur ou mot de passe incorrect.".
+
+## Exercice 3 
+
+Objectif : Apprendre à créer, manipuler et afficher des tableaux en PHP.
+
+Instructions
+
+-Créez un nouveau fichier nommé exercice3.php.
+
+Créer un tableau indexé :
+
+- Créez un tableau nommé $fruits contenant les éléments suivants : "Pomme", "Banane", "Orange".
+- Affichez le deuxième élément du tableau (Banane) en utilisant echo.
+
+
+Ajouter des éléments à un tableau indexé :
+
+- Ajoutez un élément "Mangue" au tableau $fruits.
+- Affichez tous les éléments du tableau à l'aide d'une boucle foreach.
+
+
+Créer un tableau associatif :
+
+- Créez un tableau associatif nommé $personne avec les clés "nom", "prénom", et "âge", et des valeurs de votre choix.
+- Affichez les valeurs du tableau associatif en utilisant echo.
+
+Modifier et afficher des éléments du tableau associatif :
+
+- Modifiez la valeur de la clé "âge" dans le tableau $personne.
+- Affichez toutes les clés et valeurs du tableau associatif en utilisant une boucle foreach.
