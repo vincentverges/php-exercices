@@ -6,7 +6,7 @@ echo $fruits[1];
 array_push($fruits, "mangue");
 
 foreach ($fruits as $fruit) {
-    echo  $fruit[0];
+    echo  $fruit;
 };
 
 $personne = [
@@ -16,13 +16,12 @@ $personne = [
 ];
 
 foreach ($personne as $person) {
-    echo $person[2];
+    echo $person;
 };
 
-$replace= ["age"=> "30"];
-array_replace($replace);
+$personne['age']= "30";
 
 foreach ($personne as $person) {
-    echo $person[0];
+    echo $person;
 };
 ?>
