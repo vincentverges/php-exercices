@@ -16,7 +16,7 @@ $personne = [
 ];
 
 foreach ($personne as $person) {
-    echo $person[0];
+    echo $person[1];
 };
 
 $replace= ["age"=> "30"];
