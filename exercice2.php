@@ -1,10 +1,10 @@
 <?php
 $age = 12;
 switch ($age) {
-    case 1: $age >=18 :
+    case  $age >=18 :
         echo "Vous êtes majeur";
         break;
-    case 2: $age  < 18 :
+    case $age  < 18 :
     echo "Vous êtes mineur";
     break;
 };
