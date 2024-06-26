@@ -1,7 +1,7 @@
 <?php 
 $fruits = ["Pomme", "Banane", "Orange"];
 
-echo $fruits[2];
+echo $fruits[1];
 
 array_push($fruits, "mangue");
 
@@ -16,7 +16,7 @@ $personne = [
 ];
 
 foreach ($personne as $person) {
-    echo $person[1];
+    echo $person[2];
 };
 
 $replace= ["age"=> "30"];
