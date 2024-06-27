@@ -75,3 +75,32 @@ Modifier et afficher des éléments du tableau associatif :
 
 - Modifiez la valeur de la clé "âge" dans le tableau $personne.
 - Affichez toutes les clés et valeurs du tableau associatif en utilisant une boucle foreach.
+
+## Exercice 4 
+
+Objectif : Apprendre à créer et utiliser des fonctions en PHP pour structurer et réutiliser du code.
+
+Instructions
+
+Créer un fichier PHP :
+
+- Créez un nouveau fichier nommé exercice4.php.
+
+Créer une fonction sans paramètres :
+
+- Créez une fonction nommée direBonjour qui affiche "Bonjour à tous!". Appelez la fonction pour vérifier son fonctionnement.
+
+Créer une fonction avec un paramètre :
+
+- Créez une fonction nommée direBonjourA qui prend un paramètre $nom et affiche "Bonjour, [nom]!". Appelez la fonction avec différents noms pour vérifier son fonctionnement.
+
+Créer une fonction avec plusieurs paramètres :
+
+- Créez une fonction nommée addition qui prend deux paramètres $a et $b et retourne leur somme.
+Affichez le résultat de l'appel de cette fonction avec différentes valeurs.
+
+Créer une fonction avec une valeur de retour :
+
+- Créez une fonction nommée multiplier qui prend deux paramètres $x et $y et retourne leur produit.
+Stockez le résultat de l'appel de cette fonction dans une variable et affichez cette variable.
+
