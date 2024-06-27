@@ -2,12 +2,13 @@
 function direBonjour(){
     echo 'Bonjour à tous!' . '<br/>';
 }
+direBonjour();
 ?>
 
 
 <?php
 function direBonjourA ($nom){
-    echo 'Bonjour'. $nom . '<br />'
+    echo 'Bonjour'. $nom . '<br />';
 }
 
 direBonjour('Alejandro');
