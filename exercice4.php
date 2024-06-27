@@ -24,6 +24,7 @@ addition ($x, $y);
 function multiplier(&$p, $s){
     $o = $p * $s;
     echo '<br> Fonction multiplier = ' .$o;
+    return $p;
 }
 
 multiplier($x,$y);
