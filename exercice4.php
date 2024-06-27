@@ -49,6 +49,7 @@ function multiplier($x, $y){
     echo $sum;
     return $sum;
 }
+// Appel de la function avec 2 paramètre
 multiplier(5,5);
 
 
