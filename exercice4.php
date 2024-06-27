@@ -1,13 +1,13 @@
 <?php
 
 function direBonjour (){
-    echo "Bonjour à tous!";
+    echo " Fonction direBonjour = Bonjour à tous!";
 }
 $nom='Jean';
 
 
  function direBonjourA($p){
-    echo 'Bonjour' .$p. '<br>';
+    echo '<br> Fonction direBonjourA = Bonjour ' .$p. '<br>';
 }
 direBonjour ();
 direBonjourA ($nom);
@@ -16,15 +16,15 @@ $x = 3;
 $y = 5;
 
  function addition($p1, $p2){
-    echo $p1. ' + ' .$p2. ' = ' .($p1 + $p2). '<br>';
+    echo '<br> Fonction addition : ' .$p1. ' + ' .$p2. ' = ' .($p1 + $p2). '<br>';
 }
 
 addition ($x, $y);
 
-function multiplier(&$p){
-    $p = $p * 3;
-    echo 'Valeur dans la fonction:' .$p;
+function multiplier(&$p, $s){
+    $o = $p * $s;
+    echo '<br> Fonction multiplier = ' .$o;
 }
 
-multiplier($x);
+multiplier($x,$y);
 echo '<br> Valeur en dehors de la fonction :'.$x;
