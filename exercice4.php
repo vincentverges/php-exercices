@@ -19,6 +19,7 @@ function multiplier ($x, $y){
     $multiple= $x * $y;
     return $multiple;
 };
-echo ($multiple);
+$result = multiplier($x, $y);
+echo ($result);
 ?>
 
