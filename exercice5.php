@@ -6,12 +6,16 @@ while ( $i <=10 ) {
     $i++;
 };
 
-$j=0;
-while ($j <= 10) {
-    $k = $j +($j +1) ;
+$j=1;
+$k=0;
+function addition() {
+    while ($j <= 10) {
+    $k = $k +$j  ;
     echo $k, "\n";
     $j++;
+}
 };
+addition();
 
 for ($j = 1; $j < 11; $j++) {
     echo $j;
