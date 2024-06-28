@@ -104,3 +104,30 @@ Créer une fonction avec une valeur de retour :
 - Créez une fonction nommée multiplier qui prend deux paramètres $x et $y et retourne leur produit.
 Stockez le résultat de l'appel de cette fonction dans une variable et affichez cette variable.
 
+## Exercice 5 : Utilisation des Boucles en PHP
+
+Objectif : Apprendre à utiliser les différentes boucles en PHP pour répéter des actions de manière structurée.
+
+Créer un fichier PHP :
+
+- Créez un nouveau fichier nommé exercice5.php.
+
+Boucle while :
+
+- Utilisez une boucle while pour afficher les nombres de 1 à 10.
+
+- Utilisez une boucle while pour calculer et afficher la somme des nombres de 1 à 10.
+
+Boucle for :
+
+- Utilisez une boucle for pour afficher les nombres de 1 à 10.
+- Utilisez une boucle for pour afficher la table de multiplication de 5.
+
+Boucle foreach :
+
+- Créez un tableau nommé $fruits contenant les éléments suivants : "Pomme", "Banane", "Orange", "Mangue".
+- Utilisez une boucle foreach pour afficher chaque fruit du tableau.
+
+Boucle do...while :
+
+- Utilisez une boucle do...while pour afficher les nombres de 1 à 10.
