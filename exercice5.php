@@ -18,10 +18,11 @@ for ($i = 0; $i <= 10; $i++) {
     echo $i;
 }
 //////////////////////////
-for ($i = 0; $i <= 10; $i++) {
-    $count+= $i;
+for ($i = 1; $i <= 10; $i++) {
+    $count+= 5;
+    echo $count;
 }
-echo $count;
+
 //////////////////////////
 $fruits = ["Pomme", "Banane", "Orange", "Mangue"];
 
