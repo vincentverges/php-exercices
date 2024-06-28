@@ -20,6 +20,7 @@ echo $personne["nom"];
 $personne["âge"] = "27";
 
 foreach( $personne as $pers) {
+    
     echo $pers;
 }
 
