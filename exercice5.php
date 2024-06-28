@@ -43,7 +43,7 @@ $fruits= ["Pomme", "Banane", "Orange", "Mangue"];
 
 foreach ($fruits as $fruit){
     echo "\n".$fruit;
-}git add .
+}
 
 echo "\n";
 echo "\n";
