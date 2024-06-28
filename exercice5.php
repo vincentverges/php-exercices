@@ -6,7 +6,7 @@ while ($x <=10){
 }
 
 for ($x =0; $x <=10;$x++){
-    echo '$x contient la valeur ' .$x. '<br>';
+    echo '$x contient la valeur ' .($x+$x). '<br>';
 }
 
 echo "Boucle multiplie <br>";
