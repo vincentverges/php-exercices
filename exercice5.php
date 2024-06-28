@@ -31,4 +31,6 @@ foreach ( $fruits as $fruit ) {
     echo $fruit;
 };
 
+do
+
 ?>
