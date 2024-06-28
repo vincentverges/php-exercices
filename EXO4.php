@@ -40,6 +40,6 @@ function multiplier($x, $y) {  // 2 parametres + returncalcul
 	return $x * $y;
 }
 
-$resultat_multiplication = multiplier(6, 7);
+$totmultiplication = multiplier(6, 7);
 echo "Le résultat est : $resultat_multiplication<br>";
 ?>
