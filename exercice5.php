@@ -4,9 +4,16 @@ while ($x <=10){
     echo '$x contient la valeur ' .$x. '<br>';
     $x++;
 }
-
-for ($x =0; $x <=10;$x++){
-    echo '$x contient la valeur ' .($x+$x). '<br>';
+$x=1;
+$somme=0;
+while ($x <=10){
+    $somme = $somme + $x;
+    echo '$x contient la valeur ' .($somme). '<br>';
+    $x++;
+}
+for ($x=0; $x<=10; $x++)
+{
+    echo $x;
 }
 
 echo "Boucle multiplie <br>";
